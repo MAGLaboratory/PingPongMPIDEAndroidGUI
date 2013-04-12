@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		<TextView 
+		    android:id="@+id/testVal0"
+		    android:text="0"
+		    android:textColor="#ffffff"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <android.widget.VerticalSeekBar
+            android:id="@+id/testBar0"
+            android:max="255"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="250dp"
+             />
+
+    </LinearLayout>
+    
+
+</HorizontalScrollView>
